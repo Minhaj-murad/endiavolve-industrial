@@ -16,79 +16,53 @@
 
 body {
     font-family: 'Roboto Condensed';
-
-}
-
-.content-image {
+  
+  }
+  /* industrial css starts here */
+  .industrial-container{
+    width: 90vw;
+  }
+  .industrial-content-image {
     border-radius: 5px;
-}
-
-.topicname {
+  }
+  
+  .industrial-topicname {
     width: 220px;
-    margin-top: 40px;
-
-}
-
-.topichead {
+    margin-top: 10px;
+  
+  }
+  
+  .industrial-topichead {
     font-size: 15px;
     text-align: center;
-}
-
-.video-link {
-    text-decoration: none;
-}
-
-.playlists-container .title {
+  }
+  
+  .industrial-playlists-container .title {
     color: #1a1a1a;
     text-align: center;
     margin-bottom: 10px;
-}
-
-.content {
+  }
+  
+  .industrial-content {
     position: relative;
     width: 180px;
     margin: auto;
     overflow: hidden;
-}
-
-.owl-item.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content .content-overlay {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 99%;
-    width: auto;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-}
-
-.content:hover .content-overlay {
-    opacity: 1;
-}
-
-.content-image {
-
+  }
+  
+  .industrial-content-image {
     width: 150px;
     height: 150px;
-}
-
-.content-details {
+  }
+  
+  .industrial-content-details {
     position: absolute;
     text-align: right;
     padding-left: 1em;
     padding-right: 1em;
     width: 90%;
     top: 0%;
+    color: aliceblue;
     left: 100%;
     opacity: 0;
     -webkit-transform: translate(-50%, -50%);
@@ -97,144 +71,85 @@ body {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-}
-
-.content:hover .content-details {
+  }
+  
+  .industrial-content:hover .industrial-content-details {
     top: 20%;
     left: 60%;
     opacity: 1;
                                            
-}
-
-.content-details h3 {
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-}
-
-.play-btn {
-    text-decoration: none;
-    background: none;
-    color: #fff;
-    font-size: 20px;
-    border: none;
-    outline: none;
-}
-
-.playall {
-    margin-left: 5px;
-}
-
-.content-details p {
-    color: #fff;
-    font-size: 0.8em;
-}
-
-.fadeIn-top {
-    top: 20%;
-}
-
-.subjects {
-    margin-top: 20px;
-}
-
-.headpage {
+  }
+  /* Owl carousel industrial starts here */
+  .owl-item.active {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.user-panel-student-topic {
-    text-align: start;
-}
-
-.wrapper .owl-prev,
-.wrapper .owl-next {
+  }
+  .wrapper .owl-prev,
+  .wrapper .owl-next {
     position: absolute;
     top: 25%;
     font-size: 2rem;
-
-}
-
-.wrapper .owl-prev {
+  
+  }
+  
+  .wrapper .owl-prev {
     left: 0;
-}
-
-.wrapper .owl-next {
+  }
+  
+  .wrapper .owl-next {
     right: 0;
-}
-
-.wrapper .owl-dots {
+  }
+  
+  .wrapper .owl-dots {
     display: none;
-}
-
-.user-panel-student-videos {
-    margin-top: 40px;
-}
-
-.user-panel-student-topic {
+  }
+  
+  .industrial-student-topic {
     font-size: 25px;
     margin-left: 60px;
     margin-top: 40px;
     margin-bottom: 20px;
     color: #3742fa;
     font-weight: bold;
-}
-
-.user-panel-student-options {
-    text-decoration: none;
-    color: #3742fa;
-    font-weight: bold;
-}
-
-.user-panel-student-options:hover {
-    color: #ffa502;
-}
-
-#left-arrow {
+  }
+  
+  #left-arrow {
     color: #fff;
     border-radius: 50%;
     background-color: #1a1a1a;
     padding: 5px;
     padding-inline: 10px;
-
-}
-
-
-#right-arrow {
+  
+  }
+  
+  #right-arrow {
     color: #fff;
     border-radius: 50%;
     background-color: #1a1a1a;
     padding: 5px;
     padding-inline: 10px;
-
-
-}
-
-#right-arrow:hover {
+  }
+  
+  #right-arrow:hover {
     color: #fff;
-
     background-color: #4c4b4b;
     padding: 5px;
     padding-inline: 10px;
-
-
-}
-
-#left-arrow:hover {
+  }
+  
+  #left-arrow:hover {
     color: #fff;
-
     background-color: #4c4b4b;
     padding: 5px;
     padding-inline: 10px;
-
-}
-
-@media screen and (max-width: 800px){
-    .user-panel-student-topic{
+  
+  }
+  
+  @media screen and (max-width: 800px){
+    .industrial-student-topic{
         margin-left: 0;
         text-align: center;
     }
-}
+  }
+  /* industrial css ends here */
